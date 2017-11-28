@@ -236,7 +236,7 @@
             "additionalConfigs" : [
               {
                 "key" : "connector.name",
-                "value" : "hive-cdh5"
+                "value" : "hive-hadoop2"
               },
               {
                 "key" : "hive.config.resources",
@@ -389,7 +389,7 @@
             "additionalConfigs" : [
               {
                 "key" : "connector.name",
-                "value" : "hive-cdh5"
+                "value" : "hive-hadoop2"
               },
               {
                 "key" : "hive.config.resources",
@@ -550,7 +550,7 @@
             "additionalConfigs" : [
               {
                 "key" : "connector.name",
-                "value" : "hive-cdh5"
+                "value" : "hive-hadoop2"
               },
               {
                 "key" : "hive.config.resources",
