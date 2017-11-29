@@ -279,6 +279,19 @@
           {
             "filename" : "etc/catalog/jmx.properties",
             "configFormat" : "properties",
+            "excludedParams" : [
+              "discovery_uri",
+              "hive_metastore_uri",
+              "mysql_connection_host",
+              "mysql_connection_port",
+              "mysql_connection_user",
+              "mysql_connection_password",
+              "kafka_nodes",
+              "kafka_table_names",
+              "coordinator_webui_port",
+              "task_max_memory",
+              "jvm_config"
+            ],
             "additionalConfigs" : [
               {
                 "key" : "connector.name",
@@ -432,6 +445,19 @@
           {
             "filename" : "etc/catalog/jmx.properties",
             "configFormat" : "properties",
+            "excludedParams" : [
+              "discovery_uri",
+              "hive_metastore_uri",
+              "mysql_connection_host",
+              "mysql_connection_port",
+              "mysql_connection_user",
+              "mysql_connection_password",
+              "kafka_nodes",
+              "kafka_table_names",
+              "worker_webui_port",
+              "task_max_memory",
+              "jvm_config"
+            ],
             "additionalConfigs" : [
               {
                 "key" : "connector.name",
@@ -593,7 +619,19 @@
           {
             "filename" : "etc/catalog/jmx.properties",
             "configFormat" : "properties",
-            "excludedParams" : ["jvm_config"],
+            "excludedParams" : [
+              "discovery_uri",
+              "hive_metastore_uri",
+              "mysql_connection_host",
+              "mysql_connection_port",
+              "mysql_connection_user",
+              "mysql_connection_password",
+              "kafka_nodes",
+              "kafka_table_names",
+              "discovery_webui_port",
+              "task_max_memory",
+              "jvm_config"
+            ],
             "additionalConfigs" : [
               {
                 "key" : "connector.name",
