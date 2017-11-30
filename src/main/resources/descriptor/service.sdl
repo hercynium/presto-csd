@@ -25,24 +25,24 @@
   "commands" : [
     {
       "name" : "PrestoInitializeCoordinatorNodePropertiesCommand",
-      "label" : "Initialize node.properties",
-      "description" : "Initialize node.properties file.",
+      "label" : "Initialize Coordinator's node.properties",
+      "description" : "Initialize Coordinator's node.properties file.",
       "roleName" : "PRESTO_COORDINATOR",
       "roleCommand" : "coord_init",
       "runMode" : "all"
     },
     {
       "name" : "PrestoInitializeDiscoveryNodePropertiesCommand",
-      "label" : "Initialize node.properties",
-      "description" : "Initialize node.properties file.",
+      "label" : "Initialize Discovery's node.properties",
+      "description" : "Initialize Discovery's node.properties file.",
       "roleName" : "PRESTO_DISCOVERY",
       "roleCommand" : "discovery_init",
       "runMode" : "all"
     },
     {
       "name" : "PrestoInitializeWorkerNodePropertiesCommand",
-      "label" : "Initialize node.properties",
-      "description" : "Initialize node.properties file.",
+      "label" : "Initialize Worker's node.properties",
+      "description" : "Initialize Worker's node.properties file.",
       "roleName" : "PRESTO_WORKER",
       "roleCommand" : "worker_init",
       "runMode" : "all"
